@@ -38,7 +38,9 @@ Augmented Faces allows your app to automatically identify different regions of a
 
 As you move your device, the app automatically detects flat surfaces and draws a diamond grid. Tap the grid to place an mesh on the surface.
 
-![Watch the video](https://j.gifs.com/710AGr.gif)
-
+<p align="center"> 
+    <img src="README/Spawn.gif" width="680">
+     <p align="center">Augmented Spawn</p>
+</p>
 
 
