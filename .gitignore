@@ -91,7 +91,7 @@ DerivedDataCache/*
 .kdev4
 Releases
 CMakeLists.txt
-UnrealGAMS.kdev4
-UnrealGAMS.workspace
-UnrealGAMSCodeCompletionFolders.txt
-UnrealGAMSCodeLitePreProcessor.txt
+ARCore.kdev4
+ARCore.workspace
+ARCoreCodeCompletionFolders.txt
+ARCoreCodeLitePreProcessor.txt

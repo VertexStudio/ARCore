@@ -1,16 +1,7 @@
-Google ARCore SDK for Unreal
+Google ARCore SDK
 =====================
 
 This SDK provides native APIs for all of the essential AR features like motion tracking, environmental understanding, and light estimation. With these capabilities you can build entirely new AR experiences or enhance existing apps with AR features.
-
-## Quick Start
-
-To build ARCore apps with Unreal Engine, you must use a version of Unreal Engine with _GoogleARCore plugin_ integrated. For more information, see the [Getting Started with Unreal](//developers.google.com/ar/develop/unreal/getting-started) developer guide.
-
-<p align="center"> 
-    <img src="README/arcore-gif.gif" width="480">
-     <p align="center">Arcore</p>
-</p>
 
 
 ## Augmented Images
@@ -43,4 +34,41 @@ As you move your device, the app automatically detects flat surfaces and draws a
      <p align="center">Augmented Spawn</p>
 </p>
 
+# Installation, set up and Building
 
+## Simbotic Engine
+
+Clone and build [Simbotic Engine](https://github.com/Simbotic/SimboticEngine)
+
+```
+git clone -b Simbotic/4.24 git@github.com:Simbotic/SimboticEngine.git
+cd SimboticEngine
+./Setup.sh
+./GenerateProjectFiles.sh
+make
+```
+### Set Up environment variables
+
+```
+cd SimboticEngine/
+echo "export SIMBOTIC_ENGINE=`pwd`" >> $HOME/.bashrc
+```
+
+## Set Up this Project
+
+```
+./generate.sh
+./build.sh 
+```
+## Run
+
+```
+./run_editor.sh
+```
+## Android Building
+
+1. Download and Install Nvidia CodeWorks: https://developer.nvidia.com/codeworks-android
+2. Project Settings -> Platforms -> Android -> Configure Now Accept SDK License.
+3. Project Settings -> Platforms -> Android -> Configure Google Play Services
+4. Project Settings -> Platforms -> Android SDK and configure NDK, SDK, Java properties.
+5. Follow the next link to package the android apk: https://docs.unrealengine.com/en-US/Platforms/Mobile/Android/PackagingAndroidProject/index.html

@@ -1,8 +1,15 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.24",
+	"EngineAssociation": "{00048695-08D7-D0F3-4B8C-0BA058FA2533}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "ARCore",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "GoogleARCore",
