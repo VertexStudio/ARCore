@@ -91,7 +91,3 @@ DerivedDataCache/*
 .kdev4
 Releases
 CMakeLists.txt
-UnrealGAMS.kdev4
-UnrealGAMS.workspace
-UnrealGAMSCodeCompletionFolders.txt
-UnrealGAMSCodeLitePreProcessor.txt
